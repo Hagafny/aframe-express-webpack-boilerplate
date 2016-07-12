@@ -1,0 +1,36 @@
+{
+  "name": "aframe-node-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "aframe-express-webpack simple boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "watch" : "webpack -w",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pashtidot/aframe-node-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "aframe",
+    "a-frame",
+    "aframevr",
+    "vr",
+    "webvr",
+    "node",
+    "webpack"
+  ],
+  "author": "Ron Hagafny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pashtidot/aframe-node-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Pashtidot/aframe-node-webpack-boilerplate#readme",
+  "dependencies": {
+    "aframe": "^0.2.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
